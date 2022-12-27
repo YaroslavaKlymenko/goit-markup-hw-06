@@ -86,7 +86,7 @@
 
                   <input
                     type="text"
-                    class="madal-form-input"
+                    class="modal-form-input"
                     name="Name"
                     autofocus
                   />
@@ -99,7 +99,7 @@
 
                   <input
                     type="text"
-                    class="madal-form-input"
+                    class="modal-form-input"
                     name="Phone"
                     autofocus
                   />
@@ -112,7 +112,7 @@
 
                   <input
                     type="text"
-                    class="madal-form-input"
+                    class="modal-form-input"
                     name="Email"
                     autofocus
                   />
@@ -121,8 +121,9 @@
                   </svg>
                 </div>
                 <div class="modal-box">
-                  <label class="modal-label modal-box"> Comment </label>
+                  <label class="modal-label"> Comment </label>
                   <textarea
+                    class="modal-form-textarea"
                     name="Comment"
                     rows="5"
                     placeholder="Text input"
@@ -131,7 +132,7 @@
                 </div>
               </form>
               <div class="modal-checkbox">
-                <label>
+                <label class="modal-checkbox-box">
                   <input
                     class="checkbox"
                     type="checkbox"
@@ -139,8 +140,9 @@
                     value="sports"
                     unchecked
                   />
+                  <span class="checkbox-svg"> </span>
                   I accept the terms and conditions of the
-                  <a href="#">Privacy Policy</a>
+                  <a class="checkbox-link" href="#">Privacy Policy</a>
                 </label>
               </div>
               <button type="send" class="modal-button">Send</button>

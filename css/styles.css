@@ -416,3 +416,60 @@ body {
   width: 24px;
   height: 24px;
 }
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.footer-form-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--navyblue);
+  width: 264px;
+  height: 40px;
+}
+
+.footer-label-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  position: relative;
+}
+
+.footer-label {
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  bottom: 60%;
+  margin-bottom: 28px;
+  font-weight: 500;
+}
+
+.footer-button {
+  background: #4d5ae5;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 8px 64px 8px 24px;
+  height: 40px;
+  width: 165px;
+  border: none;
+  position: relative;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 20px;
+  margin-left: 16px;
+  position: absolute;
+  margin-bottom: 8px;
+}
+
+.footer-form-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  padding-left: 16px;
+}
