@@ -328,11 +328,13 @@ body {
 .modal-form-input:hover {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
+  outline: none;
 }
 
 .modal-form-input:focus {
   border: 1px solid #4d5ae5;
   border-radius: 4px;
+  outline: none;
 }
 
 .modal-form-input:hover + .modal-svg {
@@ -368,6 +370,13 @@ body {
 .modal-form-textarea:hover {
   border: 1px solid var(--iris);
   border-radius: 4px;
+  outline: none;
+}
+
+.modal-form-textarea:focus {
+  border: 1px solid var(--iris);
+  border-radius: 4px;
+  outline: none;
 }
 
 .modal-svg {
